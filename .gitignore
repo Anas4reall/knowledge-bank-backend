@@ -1,0 +1,4 @@
+node_modules/
+knowledge_bank.sqlite
+.env
+uploads/
