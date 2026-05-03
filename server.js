@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const db = require('./database');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 const JWT_SECRET = 'knowledge_bank_secret_key_123';
 
 // Middlewares
